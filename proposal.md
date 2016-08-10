@@ -18,6 +18,8 @@ Chime allows users to:
 - [x] Create, edit, or delete playlists
 - [x] Add tracks to or remove tracks from playlists
 
+TEST PROPOSAL CHANGE
+
 ## Design
 * [Database schema](./schema.md)
 
