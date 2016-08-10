@@ -1,36 +1,24 @@
 ## Component Hierarchy
 
 * `App`
-  * `Splash`
-
-  * 'PhotoIndex'
-    * `PhotoDetail`
-      * `PhotoTags`
-      * `PhotoComments`
-  * `AlbumDetail`
-    * `PhotoIndex`
-  * `GroupDetail`
-    * `PhotoIndex`
-
-
-* `App`
   * `Search`
   * `UserProfile`
     * `FavoritesIndex`
     * `PlaylistsIndex`
-    * `FollowingsIndex`
-    * `Create`
+    * `FavoritesIndex`
   * `TracksIndex`
     * `TrackIndexItem`
+    * `UserDetail`
   * `PlaylistIndex`
     * `PlaylistIndexItem`
     * `PlaylistForm`
     * `UserDetail`
   * `TrackDetail`
     * `TrackEdit`
-    * `TrackUploadForm`
+    * `TrackUpload`
     * `UserDetail`
-    * `CommentForm`
+    * `Comments`
   * `TrackPlayer`
     * `TrackControls`
     * `TrackInfo`
+    * `Equalizer`
