@@ -11,5 +11,5 @@
 
 [Splash Page]: ./wireframes/splash.png
 [Logged In Page]: ./wireframes/logged_in.png
-[Profile Page]:
 [Song Page]: ./wireframes/song.png
+[Profile Page]: ./wireframes/user_page.png
