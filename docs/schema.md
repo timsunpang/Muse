@@ -7,9 +7,9 @@ id          | integer   | not null, primary key
 uploader_id | integer   | not null, foreign key (references users), indexed
 title       | string    | not null
 artist      | string    | not null
-description | text      | not null
-image       | attachment| not null
-audio_url   | string    | not null
+description | text      |
+thumbnail   | attachment|
+track_url   | string    | not null
 
 
 ## playlists
@@ -40,7 +40,7 @@ column name | data type | details
 id          | integer   | not null, primary key
 creator_id  | integer   | not null, foreign key (references users), indexed
 track_id    | integer   | not null, foreign key (references tracks), indexed
-body        | string    |
+body        | text      | not null
 
 ## users
 column name     | data type | details

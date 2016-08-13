@@ -8,6 +8,8 @@
 
 ### PlaylistingStore
 
+## CommentStore
+
 ### UserStore
 
 ### SessionStore
@@ -19,5 +21,3 @@
 # OR Redux Stores
 
 ### ReduxStore
-
-
