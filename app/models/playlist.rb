@@ -11,4 +11,9 @@
 #
 
 class Playlist < ActiveRecord::Base
+  validates :creator_id, :title, presence: true
+
+  belongs_to :creator, class_name: "User"
+  has_many :playlistings, dependent: :destroy
+  has_many :tracks, through: :playlistings
 end
