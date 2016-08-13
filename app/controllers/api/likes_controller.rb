@@ -1,2 +1,2 @@
-class LikesController < ApplicationController
+class Api::LikesController < ApplicationController
 end
