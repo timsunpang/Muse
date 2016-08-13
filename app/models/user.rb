@@ -20,12 +20,16 @@ class User < ActiveRecord::Base
   validates :username, :email, :password_digest, :session_token, presence: true
   validates :username, :email, uniqueness: true
   validates :password, length: {minimum: 6, allow_nil: true}
-  after_initialize: :ensure_session_token
 
-  has_many :comments
-  has_many :likes
-  has_many :playlists
-  has_many :tracks
+  has_many :comments, dependent: :destroy
+  has_many :likes, dependent: :destroy
+  has_many :playlists, dependent: :destroy
+  has_many :tracks, dependent: :destroy
+
+  attr_reader :password
+
+  after_initialize :ensure_session_token
+
 
   def password=(password)
     @password = password
