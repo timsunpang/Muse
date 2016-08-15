@@ -1,5 +1,4 @@
 class Api::CommentsController < ApplicationController
-
   def index
     @comments = Comment.includes(:user, :track)
     if (params[:trackId])

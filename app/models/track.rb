@@ -21,5 +21,6 @@ class Track < ActiveRecord::Base
 
   belongs_to :user
   has_many :playlistings, dependent: :destroy
+  has_many :likes, dependent: :destroy
   has_many :playlists, through: :playlistings
 end
