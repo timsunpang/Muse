@@ -17,4 +17,10 @@
 #
 
 class Track < ActiveRecord::Base
+  validates :uploader_id, :title, :artist, :track_url, presence: true
+
+  belongs_to :user
+  has_many :playlistings, dependent: :destroy
+  has_many :likes, dependent: :destroy
+  has_many :playlists, through: :playlistings
 end
