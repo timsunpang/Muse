@@ -20,7 +20,7 @@ class User < ActiveRecord::Base
   validates :username, :email, :password_digest, :session_token, presence: true
   validates :username, :email, uniqueness: true
   validates :password, length: {minimum: 6, allow_nil: true}
-  after_initialize: :ensure_session_token
+  after_initialize :ensure_session_token
 
   has_many :comments
   has_many :likes
@@ -52,7 +52,7 @@ class User < ActiveRecord::Base
   private
 
   def ensure_session_token
-    self.session_token ||= self.generate_session_token
+    self.session_token ||= User.generate_session_token
   end
 
   def self.generate_session_token
