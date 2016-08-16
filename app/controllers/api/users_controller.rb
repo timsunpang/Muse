@@ -1,8 +1,8 @@
 class Api::UsersController < ApplicationController
-  def new
-    @user = User.new
-    render :new
-  end
+  # def new
+  #   @user = User.new
+  #   render :new
+  # end
 
   def show
     @user = User.find_by_id(params[:id])
@@ -11,12 +11,12 @@ class Api::UsersController < ApplicationController
 
   def create
     @user = User.new(user_params)
+    puts @user
     if @user.save
       sign_in(@user)
-      redirect_to root_url
+      render json: @user
     else
-      # create error message
-      redirect_to new_api_user_url
+      render json: @user.errors.full_messages
     end
   end
 
@@ -28,11 +28,11 @@ class Api::UsersController < ApplicationController
 
   def destroy
     @user = User.find_by_id(params[:id])
-    
+
   end
 
   private
-  def users_params
-    params.require(:user).permit(:username, :email, :password_digest, :session_token, :description, :image_file_name, :image_content_type, :image_file_size, :image_updated_at)
+  def user_params
+    params.require(:user).permit(:username, :email, :password, :session_token, :description, :image_file_name, :image_content_type, :image_file_size, :image_updated_at)
   end
 end

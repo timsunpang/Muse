@@ -1,4 +1,4 @@
-class SessionsController < ApplicationController
+class Api::SessionsController < ApplicationController
   before_action :if_logged_in, only: [:new]
 
   def new
@@ -7,29 +7,29 @@ class SessionsController < ApplicationController
   end
 
   def create
-    @user = User.find_by_credentials(
-      params[:user][:email],
-      params[:user][:password]
-    )
+    @user = User.find_by_credentials(user_params[:username],user_params[:password])
 
     if @user
       sign_in(@user)
-      redirect_to root_url
+      render json: @user
     else
-      flash.now[:errors] = ["Invalid username or password"]
-      render :new
+      render json: ['Invalid credentials'], status: 401
     end
   end
 
   def destroy
-    sign_out
-    render json: {}
+    if current_user
+      sign_out
+      render json: {}
+    else
+      render json: ['Not logged in'], status: 404
+    end
   end
 
   private
 
   def user_params
-    params.require(:user).permit(:email, :password)
+    params.require(:user).permit(:username, :password)
   end
 
   def if_logged_in
