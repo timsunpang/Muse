@@ -1,0 +1,260 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react-addons-linked-state-mixin' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose install initial load of /Users/itsapangarang/Documents/Programming/ruby/Muse/package.json
+5 verbose installManyTop reading scoped package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/babel/package.json
+6 verbose installManyTop reading scoped package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/babel-core/package.json
+7 verbose installManyTop reading scoped package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/babel-loader/package.json
+8 verbose installManyTop reading scoped package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/babel-preset-es2015/package.json
+9 verbose installManyTop reading scoped package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/babel-preset-react/package.json
+10 verbose installManyTop reading scoped package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/boron/package.json
+11 verbose installManyTop reading scoped package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/flux/package.json
+12 verbose installManyTop reading scoped package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/history/package.json
+13 verbose installManyTop reading scoped package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/keymirror/package.json
+14 verbose installManyTop reading scoped package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react/package.json
+15 verbose installManyTop reading scoped package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-bootstrap/package.json
+16 verbose installManyTop reading scoped package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-dom/package.json
+17 verbose installManyTop reading scoped package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-router/package.json
+18 verbose installManyTop reading scoped package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/webpack/package.json
+19 info package.json keymirror@0.1.1 No license field.
+20 verbose readDependencies loading dependencies from /Users/itsapangarang/Documents/Programming/ruby/Muse/package.json
+21 silly cache add args [ 'react-addons-linked-state-mixin', null ]
+22 verbose cache add spec react-addons-linked-state-mixin
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: 'react-addons-linked-state-mixin',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'react-addons-linked-state-mixin',
+23 silly cache add   rawSpec: '',
+23 silly cache add   spec: '*',
+23 silly cache add   type: 'range' }
+24 silly addNamed react-addons-linked-state-mixin@*
+25 verbose addNamed "*" is a valid semver range for react-addons-linked-state-mixin
+26 silly addNameRange { name: 'react-addons-linked-state-mixin',
+26 silly addNameRange   range: '*',
+26 silly addNameRange   hasData: false }
+27 silly mapToRegistry name react-addons-linked-state-mixin
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry uri https://registry.npmjs.org/react-addons-linked-state-mixin
+31 verbose addNameRange registry:https://registry.npmjs.org/react-addons-linked-state-mixin not in flight; fetching
+32 verbose request uri https://registry.npmjs.org/react-addons-linked-state-mixin
+33 verbose request no auth needed
+34 info attempt registry request try #1 at 1:10:40 AM
+35 verbose request id 1728ba161a3b0bcf
+36 verbose etag "EO6C1RSLCOGD3OE3X8H5JMTRE"
+37 http request GET https://registry.npmjs.org/react-addons-linked-state-mixin
+38 http 200 https://registry.npmjs.org/react-addons-linked-state-mixin
+39 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+39 verbose headers   etag: '"5V23WH4NVDIY4PZ6QRLBKXQVM"',
+39 verbose headers   'content-type': 'application/json',
+39 verbose headers   'content-encoding': 'gzip',
+39 verbose headers   'cache-control': 'max-age=300',
+39 verbose headers   'content-length': '5710',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   date: 'Sat, 20 Aug 2016 08:10:41 GMT',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   age: '0',
+39 verbose headers   connection: 'keep-alive',
+39 verbose headers   'x-served-by': 'cache-lax1425-LAX',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1471680641.045377,VS0,VE193',
+39 verbose headers   vary: 'Accept-Encoding' }
+40 silly get cb [ 200,
+40 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+40 silly get     etag: '"5V23WH4NVDIY4PZ6QRLBKXQVM"',
+40 silly get     'content-type': 'application/json',
+40 silly get     'content-encoding': 'gzip',
+40 silly get     'cache-control': 'max-age=300',
+40 silly get     'content-length': '5710',
+40 silly get     'accept-ranges': 'bytes',
+40 silly get     date: 'Sat, 20 Aug 2016 08:10:41 GMT',
+40 silly get     via: '1.1 varnish',
+40 silly get     age: '0',
+40 silly get     connection: 'keep-alive',
+40 silly get     'x-served-by': 'cache-lax1425-LAX',
+40 silly get     'x-cache': 'MISS',
+40 silly get     'x-cache-hits': '0',
+40 silly get     'x-timer': 'S1471680641.045377,VS0,VE193',
+40 silly get     vary: 'Accept-Encoding' } ]
+41 verbose get saving react-addons-linked-state-mixin to /Users/itsapangarang/.npm/registry.npmjs.org/react-addons-linked-state-mixin/.cache.json
+42 silly addNameRange number 2 { name: 'react-addons-linked-state-mixin',
+42 silly addNameRange   range: '*',
+42 silly addNameRange   hasData: true }
+43 silly addNameRange versions [ 'react-addons-linked-state-mixin',
+43 silly addNameRange   [ '0.14.0-beta1',
+43 silly addNameRange     '0.14.0-beta2',
+43 silly addNameRange     '0.14.0-beta3',
+43 silly addNameRange     '0.14.0-rc1',
+43 silly addNameRange     '0.14.0',
+43 silly addNameRange     '0.14.1',
+43 silly addNameRange     '0.14.2',
+43 silly addNameRange     '0.14.3',
+43 silly addNameRange     '0.14.4',
+43 silly addNameRange     '0.14.5',
+43 silly addNameRange     '0.14.6',
+43 silly addNameRange     '0.15.0-alpha.1',
+43 silly addNameRange     '0.14.7',
+43 silly addNameRange     '15.0.0-rc.1',
+43 silly addNameRange     '15.0.0-rc.2',
+43 silly addNameRange     '0.14.8',
+43 silly addNameRange     '15.0.0',
+43 silly addNameRange     '15.0.1',
+43 silly addNameRange     '15.0.2-alpha.1',
+43 silly addNameRange     '15.0.2-alpha.2',
+43 silly addNameRange     '15.0.2-alpha.3',
+43 silly addNameRange     '15.0.2-alpha.4',
+43 silly addNameRange     '15.0.2',
+43 silly addNameRange     '15.0.3-alpha.1',
+43 silly addNameRange     '15.0.3-alpha.2',
+43 silly addNameRange     '15.1.0-alpha.1',
+43 silly addNameRange     '15.1.0',
+43 silly addNameRange     '15.2.0-rc.1',
+43 silly addNameRange     '15.2.0-rc.2',
+43 silly addNameRange     '15.2.0',
+43 silly addNameRange     '15.2.1',
+43 silly addNameRange     '15.3.0-rc.1',
+43 silly addNameRange     '15.3.0-rc.2',
+43 silly addNameRange     '15.3.0-rc.3',
+43 silly addNameRange     '15.3.0',
+43 silly addNameRange     '15.3.1-rc.1',
+43 silly addNameRange     '15.3.1-rc.2',
+43 silly addNameRange     '15.3.1' ] ]
+44 silly addNamed react-addons-linked-state-mixin@15.3.1
+45 verbose addNamed "15.3.1" is a plain semver version for react-addons-linked-state-mixin
+46 silly mapToRegistry name react-addons-linked-state-mixin
+47 silly mapToRegistry using default registry
+48 silly mapToRegistry registry https://registry.npmjs.org/
+49 silly mapToRegistry uri https://registry.npmjs.org/react-addons-linked-state-mixin
+50 verbose addRemoteTarball https://registry.npmjs.org/react-addons-linked-state-mixin/-/react-addons-linked-state-mixin-15.3.1.tgz not in flight; adding
+51 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-addons-linked-state-mixin/-/react-addons-linked-state-mixin-15.3.1.tgz',
+51 verbose addRemoteTarball   '8658b80bfd28fe3efa687bc7dd8c2bc629092c16' ]
+52 info retry fetch attempt 1 at 1:10:41 AM
+53 info attempt registry request try #1 at 1:10:41 AM
+54 http fetch GET https://registry.npmjs.org/react-addons-linked-state-mixin/-/react-addons-linked-state-mixin-15.3.1.tgz
+55 http fetch 200 https://registry.npmjs.org/react-addons-linked-state-mixin/-/react-addons-linked-state-mixin-15.3.1.tgz
+56 silly fetchAndShaCheck shasum 8658b80bfd28fe3efa687bc7dd8c2bc629092c16
+57 verbose addTmpTarball /var/folders/tm/6r0gmr9n0p7dc98xzq5dz_540000gn/T/npm-95721-786b58ff/registry.npmjs.org/react-addons-linked-state-mixin/-/react-addons-linked-state-mixin-15.3.1.tgz not in flight; adding
+58 verbose addTmpTarball already have metadata; skipping unpack for react-addons-linked-state-mixin@15.3.1
+59 silly cache afterAdd react-addons-linked-state-mixin@15.3.1
+60 verbose afterAdd /Users/itsapangarang/.npm/react-addons-linked-state-mixin/15.3.1/package/package.json not in flight; writing
+61 verbose afterAdd /Users/itsapangarang/.npm/react-addons-linked-state-mixin/15.3.1/package/package.json written
+62 silly install resolved [ { name: 'react-addons-linked-state-mixin',
+62 silly install resolved     version: '15.3.1',
+62 silly install resolved     main: 'index.js',
+62 silly install resolved     repository:
+62 silly install resolved      { type: 'git',
+62 silly install resolved        url: 'git+https://github.com/facebook/react.git' },
+62 silly install resolved     keywords: [ 'react', 'react-addon' ],
+62 silly install resolved     license: 'BSD-3-Clause',
+62 silly install resolved     dependencies: {},
+62 silly install resolved     peerDependencies: { react: '^15.3.1' },
+62 silly install resolved     files: [ 'LICENSE', 'PATENTS', 'README.md', 'index.js' ],
+62 silly install resolved     description: 'This package provides the React LinkedStateMixin add-on.',
+62 silly install resolved     bugs: { url: 'https://github.com/facebook/react/issues' },
+62 silly install resolved     homepage: 'https://github.com/facebook/react#readme',
+62 silly install resolved     _id: 'react-addons-linked-state-mixin@15.3.1',
+62 silly install resolved     _shasum: '8658b80bfd28fe3efa687bc7dd8c2bc629092c16',
+62 silly install resolved     _resolved: 'https://registry.npmjs.org/react-addons-linked-state-mixin/-/react-addons-linked-state-mixin-15.3.1.tgz',
+62 silly install resolved     _from: 'react-addons-linked-state-mixin@*',
+62 silly install resolved     scripts: {},
+62 silly install resolved     _npmVersion: '2.15.5',
+62 silly install resolved     _nodeVersion: '4.4.5',
+62 silly install resolved     _npmUser: { name: 'zpao', email: 'paul@oshannessy.com' },
+62 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+62 silly install resolved     dist:
+62 silly install resolved      { shasum: '8658b80bfd28fe3efa687bc7dd8c2bc629092c16',
+62 silly install resolved        tarball: 'https://registry.npmjs.org/react-addons-linked-state-mixin/-/react-addons-linked-state-mixin-15.3.1.tgz' },
+62 silly install resolved     _npmOperationalInternal:
+62 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+62 silly install resolved        tmp: 'tmp/react-addons-linked-state-mixin-15.3.1.tgz_1471632595752_0.8545959815382957' },
+62 silly install resolved     directories: {} } ]
+63 info install react-addons-linked-state-mixin@15.3.1 into /Users/itsapangarang/Documents/Programming/ruby/Muse
+64 info installOne react-addons-linked-state-mixin@15.3.1
+65 verbose installOne of react-addons-linked-state-mixin to /Users/itsapangarang/Documents/Programming/ruby/Muse not in flight; installing
+66 verbose lock using /Users/itsapangarang/.npm/_locks/react-addons-linked-stat-b4d05fe8f7fd9df8.lock for /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-addons-linked-state-mixin
+67 silly install write writing react-addons-linked-state-mixin 15.3.1 to /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-addons-linked-state-mixin
+68 verbose unbuild node_modules/react-addons-linked-state-mixin
+69 silly gentlyRm /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-addons-linked-state-mixin is being purged from base /Users/itsapangarang/Documents/Programming/ruby/Muse
+70 verbose gentlyRm don't care about contents; nuking /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-addons-linked-state-mixin
+71 verbose tar unpack /Users/itsapangarang/.npm/react-addons-linked-state-mixin/15.3.1/package.tgz
+72 verbose tar unpacking to /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-addons-linked-state-mixin
+73 silly gentlyRm /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-addons-linked-state-mixin is being purged
+74 verbose gentlyRm don't care about contents; nuking /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-addons-linked-state-mixin
+75 silly gunzTarPerm modes [ '755', '644' ]
+76 silly gunzTarPerm extractEntry package.json
+77 silly gunzTarPerm extractEntry README.md
+78 silly gunzTarPerm extractEntry LICENSE
+79 silly gunzTarPerm extractEntry index.js
+80 silly gunzTarPerm extractEntry PATENTS
+81 verbose write writing to /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-addons-linked-state-mixin/package.json
+82 info preinstall react-addons-linked-state-mixin@15.3.1
+83 verbose readDependencies loading dependencies from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-addons-linked-state-mixin/package.json
+84 silly prepareForInstallMany adding react@^15.3.1 from react-addons-linked-state-mixin peerDependencies
+85 warn peerDependencies The peer dependency react@^15.3.1 included from react-addons-linked-state-mixin will no
+86 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+87 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+88 verbose readDependencies loading dependencies from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-addons-linked-state-mixin/package.json
+89 silly install resolved []
+90 verbose about to build /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-addons-linked-state-mixin
+91 info build /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-addons-linked-state-mixin
+92 info linkStuff react-addons-linked-state-mixin@15.3.1
+93 silly linkStuff react-addons-linked-state-mixin@15.3.1 has /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules as its parent node_modules
+94 verbose linkBins react-addons-linked-state-mixin@15.3.1
+95 verbose linkMans react-addons-linked-state-mixin@15.3.1
+96 verbose rebuildBundles react-addons-linked-state-mixin@15.3.1
+97 info install react-addons-linked-state-mixin@15.3.1
+98 info postinstall react-addons-linked-state-mixin@15.3.1
+99 verbose readDependencies loading dependencies from /Users/itsapangarang/Documents/Programming/ruby/Muse/package.json
+100 verbose targetResolver reading package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/babel/package.json
+101 verbose targetResolver reading package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/babel-core/package.json
+102 verbose targetResolver reading package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/babel-loader/package.json
+103 verbose targetResolver reading package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/babel-preset-es2015/package.json
+104 verbose targetResolver reading package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/babel-preset-react/package.json
+105 verbose targetResolver reading package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/boron/package.json
+106 verbose targetResolver reading package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/flux/package.json
+107 verbose targetResolver reading package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/history/package.json
+108 verbose targetResolver reading package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/keymirror/package.json
+109 verbose targetResolver reading package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react/package.json
+110 verbose targetResolver reading package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-addons-linked-state-mixin/package.json
+111 verbose targetResolver reading package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-bootstrap/package.json
+112 verbose targetResolver reading package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-dom/package.json
+113 verbose targetResolver reading package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-router/package.json
+114 verbose targetResolver reading package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/webpack/package.json
+115 verbose targetResolver reading package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/.bin/babel/package.json
+116 verbose targetResolver reading package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/.bin/babel-external-helpers/package.json
+117 verbose targetResolver reading package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/.bin/babel-node/package.json
+118 verbose targetResolver reading package data from /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/.bin/webpack/package.json
+119 verbose already installed skipping react@^15.3.1 /Users/itsapangarang/Documents/Programming/ruby/Muse
+120 silly install resolved []
+121 verbose unlock done using /Users/itsapangarang/.npm/_locks/react-addons-linked-stat-b4d05fe8f7fd9df8.lock for /Users/itsapangarang/Documents/Programming/ruby/Muse/node_modules/react-addons-linked-state-mixin
+122 verbose validateInstall loading /Users/itsapangarang/Documents/Programming/ruby/Muse/package.json for validation
+123 verbose stack Error: The package react@15.3.0 does not satisfy its siblings' peerDependencies requirements!
+123 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+123 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+123 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+123 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+123 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+123 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+123 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+123 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+123 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+123 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+124 verbose cwd /Users/itsapangarang/Documents/Programming/ruby/Muse
+125 error Darwin 15.5.0
+126 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "react-addons-linked-state-mixin"
+127 error node v4.2.1
+128 error npm  v2.14.7
+129 error code EPEERINVALID
+130 error peerinvalid The package react@15.3.0 does not satisfy its siblings' peerDependencies requirements!
+130 error peerinvalid Peer boron@0.2.3 wants react@>=0.14.0
+130 error peerinvalid Peer react-bootstrap@0.30.2 wants react@>=0.14.0
+130 error peerinvalid Peer react-dom@15.3.0 wants react@^15.3.0
+130 error peerinvalid Peer react-router@2.6.1 wants react@^0.14.0 || ^15.0.0
+130 error peerinvalid Peer react-addons-linked-state-mixin@15.3.1 wants react@^15.3.1
+131 verbose exit [ 1, true ]

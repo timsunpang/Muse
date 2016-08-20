@@ -1,11 +1,6 @@
 class Api::SessionsController < ApplicationController
   before_action :if_logged_in, only: [:new]
 
-  def new
-    @user = User.new
-    render :new
-  end
-
   def create
     @user = User.find_by_credentials(user_params[:username],user_params[:password])
 
