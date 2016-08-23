@@ -4,15 +4,13 @@ const Dispatcher = require('../dispatcher/dispatcher.js');
 const AppConstants = require('../constants/app_constants.js');
 
 var SessionAPIUtil = {
-  signup: function(args, success) {
+  signup: function(args, success, error) {
     $.ajax({
       dataType: "json",
       url: "api/users",
       method: "POST",
       data: {user: args},
-      error: function(){
-        console.log("error");
-      },
+      error: error,
       success: success
     })
   },
@@ -23,8 +21,8 @@ var SessionAPIUtil = {
       url: "api/session",
       method: "POST",
       data: {user: args},
-      error: function(){
-        console.log("error");
+      error: function(errorMsg){
+        console.log(errorMsg.responseText);
       },
       success: success
     })

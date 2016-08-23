@@ -12,7 +12,7 @@ class Api::UsersController < ApplicationController
       sign_in(@user)
       render json: @user
     else
-      render json: @user.errors.full_messages
+      render json: @user.errors.full_messages, status: 406
     end
   end
 

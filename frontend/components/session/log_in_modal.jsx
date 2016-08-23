@@ -55,40 +55,50 @@ module.exports = React.createClass({
 
   render: function () {
     return (
-      <Modal bsSize="small" show={this.state.showModal} onHide={this.closeModal}>
+      <Modal
+        bsSize="small"
+        show={this.state.showModal}
+        onHide={this.closeModal}>
+
         <Modal.Header closeButton>
-          <Modal.Title>Log In</Modal.Title>
+          <Modal.Title>
+            Log In
+          </Modal.Title>
         </Modal.Header>
-          <Modal.Body>
-            <form>
-              <div className="form-group">
-                <label htmlFor="input_username">Username</label>
-                <input type="text"
+
+        <Modal.Body>
+          <form>
+            <div className="form-group">
+              <label htmlFor="input_username">Username</label>
+              <input
+                type="text"
                 className="form-control"
                 id="input_username"
                 placeholder="Enter Username"
                 value={this.state.username}
                 onChange={this._handleUsernameChange}/>
-              </div>
-              <div className="form-group">
-                <label htmlFor="input_password">Password</label>
-                <input type="password"
+            </div>
+            <div className="form-group">
+              <label htmlFor="input_password">Password</label>
+              <input
+                type="password"
                 className="form-control"
                 id="input_password"
                 placeholder="Enter Password"
                 value={this.state.password}
                 onChange={this._handlePasswordChange}/>
-              </div>
-              <Button
-                type="submit"
-                bsStyle="primary"
-                onClick={this.logIn}>
-                Submit
-              </Button>
-              </form>
-          </Modal.Body>
-          <Modal.Footer>
-          </Modal.Footer>
+            </div>
+            <Button
+              type="submit"
+              bsStyle="primary"
+              onClick={this.logIn}>
+              Submit
+            </Button>
+          </form>
+        </Modal.Body>
+
+        <Modal.Footer>
+        </Modal.Footer>
       </Modal>
     );
   }
